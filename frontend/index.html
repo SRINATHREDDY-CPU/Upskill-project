@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GroShop – Fresh Groceries Delivered</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar"></nav>
+
+  <!-- NOTIFICATION -->
+  <div class="notification" id="notification" style="display:none"></div>
+
+  <!-- MAIN CONTENT -->
+  <main id="main"></main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div style="max-width:1100px;margin:0 auto">
+      <div style="font-size:22px;font-weight:800;color:#c4b5fd">🛒 GroShop</div>
+      <p style="margin:16px 0 8px;font-size:14px">Fresh groceries delivered to your doorstep in 30 minutes.</p>
+      <div class="footer-links">
+        <span onclick="navigate('home')">Home</span>
+        <span onclick="navigate('products')">Products</span>
+        <span onclick="navigate('orders')">Orders</span>
+      </div>
+      <p class="copyright">© 2025 GroShop. Built with ❤️ for fresh, fast grocery delivery.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/app.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/cart-auth-orders.js"></script>
+  <script src="js/admin.js"></script>
+
+</body>
+</html>
